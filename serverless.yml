@@ -3,7 +3,7 @@ service: sms-sender
 provider:
   name: google
   runtime: nodejs
-  project: XXXXXX
+  project: X
   credentials: gcp-keyfile.json
 
 plugins:
