@@ -6,7 +6,7 @@ class Sms {
         this._client = client(config.twilioAccounSID, config.twilioAuthToken)
     }
 
-    send(message,to) {
+    send(message, to) {
         return this._client.messages.create({
             from: config.twilioDeveloperPhone,
             to: to,
